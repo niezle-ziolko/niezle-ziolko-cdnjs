@@ -1,0 +1,1211 @@
+@-webkit-keyframes fadeInStamped {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeInStamped {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fadeIn {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInStamped;
+    animation-name: fadeInStamped;
+}
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.fadeOut {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+@-webkit-keyframes rotateIn {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -200deg);
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+@keyframes rotateIn {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -200deg);
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+.rotateIn {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+}
+@-webkit-keyframes rotateOut {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        opacity: 1;
+    }
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, 200deg);
+        transform: rotate3d(0, 0, 1, 200deg);
+        opacity: 0;
+    }
+}
+@keyframes rotateOut {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        opacity: 1;
+    }
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, 200deg);
+        transform: rotate3d(0, 0, 1, 200deg);
+        opacity: 0;
+    }
+}
+.rotateOut {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: rotateOut;
+    animation-name: rotateOut;
+}
+@-webkit-keyframes zoomOut {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes zoomOut {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    to {
+        opacity: 0;
+    }
+}
+.zoomOut {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: zoomOut;
+    animation-name: zoomOut;
+}
+@-webkit-keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+.zoomIn {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+@-webkit-keyframes scaleInWidth {
+    from {
+        width: auto;
+    }
+    to {
+        width: 40px;
+    }
+}
+.scaleInWidth {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: scaleInWidth;
+    animation-name: scaleInWidth;
+}
+@-webkit-keyframes scaleOutWidth {
+    from {
+        width: auto;
+    }
+    to {
+        width: auto;
+    }
+}
+.scaleOutWidth {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: scaleOutWidth;
+    animation-name: scaleOutWidth;
+}
+@-webkit-keyframes navScaleSmall {
+    from {
+        height: 213px;
+    }
+    to {
+        height: 75px;
+    }
+}
+.fal:before,
+.far:before {
+    font-family: "Font Awesome 5 Pro";
+}
+.st-clearboth {
+    clear: both;
+}
+.st-pt-10 {
+    padding-top: 10px;
+}
+.st-p-10 {
+    padding: 10px;
+}
+.st-mt-0 {
+    margin-top: 0 !important;
+}
+.st-mt-5 {
+    margin-top: 5px;
+}
+.st-mt-10 {
+    margin-top: 10px;
+}
+.st-mt-15 {
+    margin-top: 15px;
+}
+.st-mb-5 {
+    margin-bottom: 5px;
+}
+.st-mb-10 {
+    margin-bottom: 10px;
+}
+.st-mb-15 {
+    margin-bottom: 15px;
+}
+.st-f-l {
+    float: left;
+}
+.st-f-r {
+    float: right;
+}
+.st-br-5 {
+    border-radius: 5px;
+}
+.st-w-100 {
+    width: 100%;
+}
+.st-bt {
+    border-top: 1px solid #eee;
+}
+.st-bold {
+    font-weight: 700;
+}
+.stamped-launcher-icon-opened .fad:before,
+.stamped-rewards-window .fad:before {
+    font-family: inherit !important;
+    width: inherit !important;
+}
+#stamped-rewards-init iframe {
+    position: absolute !important;
+    height: 0 !important;
+    max-height: 100% !important;
+    max-width: 100% !important;
+    min-height: 100% !important;
+    min-width: 100% !important;
+    width: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+}
+.stamped-launcher-button iframe {
+    pointer-events: none;
+}
+.stamped-rewards-nav-small .stamped-rewards-header {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: navScaleSmall;
+    animation-name: navScaleSmall;
+}
+.stamped-fa-icon-pro-before:before,
+.stamped-fa-pro-icon {
+    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Brands";
+    font-size: 18px;
+    font-weight: 600;
+}
+.stamped-launcher-button {
+    outline: 0;
+    position: fixed;
+    display: block;
+    min-width: 60px;
+    max-width: 300px;
+    height: 60px;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0;
+    border-radius: 100px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #f57c00, #ffc800);
+    transition: all 0.2s ease-in-out;
+    z-index: 99999999999;
+    box-sizing: border-box;
+}
+.stamped-launcher-button:hover {
+    transform: scale(1.1);
+}
+.stamped-rewards-launcher.hidden {
+    display: none !important;
+}
+.stamped-rewards-position-left {
+    bottom: 40px;
+    left: 40px;
+}
+.stamped-rewards-position-right {
+    bottom: 40px;
+    right: 40px;
+}
+@media only screen and (max-width: 480px) {
+    .stamped-rewards-launcher.desktop {
+        display: none !important;
+    }
+}
+.stamped-icon--close {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 23px;
+    left: 23px;
+}
+.stamped-launcher-badge {
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    background: #fe556d;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    color: #fff;
+    line-height: 24px;
+    -webkit-transform: translate(-100%, 100%);
+    transform: translate(-100%, 100%);
+}
+.stamped-launcher-icon-opened i,
+.stamped-launcher-icon-opened svg {
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 27px;
+    min-width: 27px;
+    display: inline-block;
+}
+.stamped-launcher-icon-opened i:before {
+    margin: 0 !important;
+    line-height: initial !important;
+}
+.stamped-rewards-base {
+    font-family: "Open Sans", sans-serif;
+    z-index: 99999999999;
+    position: fixed;
+    width: 376px;
+    min-height: 250px;
+    max-height: 704px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 5px 40px;
+    opacity: 1;
+    height: calc(100% - 120px);
+    border-radius: 13px;
+    overflow: hidden;
+    display: none;
+}
+.stamped-rewards-window {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background: #fff;
+}
+.stamped-rewards-background {
+    position: relative;
+    height: 200px;
+    min-height: 70px;
+    color: #fff;
+    transition: height 160ms ease-out 0s;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-size: 69px 60px, cover;
+    pointer-events: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 3px 0;
+    transition: height 160ms ease-out 0s;
+    background: linear-gradient(135deg, #f78f00 0, #fdbc00 100%);
+}
+.stamped-rewards-nav-small .stamped-rewards-background {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: navScaleSmall;
+    animation-name: navScaleSmall;
+}
+.stamped-rewards-header {
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    min-height: 70px;
+}
+.stamped-rewards-header::before {
+    content: "";
+    opacity: 0.35;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-size: 69px 60px, cover;
+    pointer-events: none;
+}
+.stamped-rewards-header-container {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.stamped-rewards-header-content {
+    margin-bottom: 15px;
+}
+.stamped-rewards-header-main-title {
+    margin-top: 0;
+    display: inline-block;
+}
+.stamped-rewards-header-main-subtitle {
+    display: block;
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.stamped-rewards-header-main-subtitle h3 {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 5px 0 0 0 !important;
+    line-height: 28px;
+}
+.stamped-rewards-header-main,
+.stamped-rewards-header-small {
+    padding: 20px 30px 0;
+}
+.stamped-rewards-header-menu {
+    text-align: center;
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    white-space: nowrap;
+}
+.stamped-rewards-header-menu span {
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 7px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    display: inline-block;
+}
+.stamped-rewards-header-menu span.active {
+    background: rgba(6, 0, 0, 0.1);
+}
+.stamped-rewards-header-menu svg {
+    font-size: 16px;
+    margin-right: 1px;
+}
+.stamped-rewards-header-main-points {
+    float: right;
+}
+.stamped-rewards-header-main-points[data-name]:after,
+.stamped-rewards-header-small-points[data-name]:after {
+    content: " " attr(data-name);
+    font-size: 13px;
+    vertical-align: middle;
+}
+.stamped-rewards-header-nav {
+    vertical-align: -webkit-baseline-middle;
+    padding: 9px 12px;
+    margin-top: -13px;
+    margin-left: -15px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 25px;
+    margin-right: 3px;
+    border-radius: 5px;
+    text-align: center;
+}
+.stamped-rewards-header-nav:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.stamped-rewards-header-nav svg {
+    font-size: 20px;
+}
+.stamped-rewards-header-small {
+    display: none;
+}
+.stamped-rewards-header-small-title {
+    font-weight: 700;
+    font-size: 15px;
+}
+.stamped-rewards-header-main-points,
+.stamped-rewards-header-small-points {
+    float: right;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    margin-top: 0;
+    margin-right: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.stamped-rewards-header-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 15px;
+    width: 15px;
+    z-index: 9;
+    background-image: url(https://cdn.shopify.com/s/files/1/0638/7747/files/launcher-close-icon.png?12659);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+}
+.stamped-rewards-header-close:hover {
+    opacity: 1 !important;
+}
+.stamped-rewards-footer {
+    min-height: 40px;
+    color: #fff;
+    transition: height 160ms ease-out 0s;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 10%, #fff 65%);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99999999999;
+    text-align: center;
+}
+.stamped-rewards-content {
+    position: relative;
+    background-color: transparent;
+    box-shadow: none;
+    flex: 1 1 0%;
+}
+.stamped-rewards-content-container {
+    z-index: 2147483002;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+.stamped-rewards-nav-small .stamped-rewards-content-container {
+    top: 0;
+    padding-top: 0;
+}
+.stamped-rewards-cards {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: 100%;
+    padding: 0 20px 55px;
+}
+.stamped-rewards-cards:before {
+    content: "";
+    margin-top: -25px;
+    display: inline-block;
+    position: absolute;
+    width: 86%;
+    box-shadow: 0 2px 11px rgba(0, 0, 0, 0.3);
+    height: 5px;
+    border-radius: 50%;
+    display: none;
+}
+.stamped-rewards-nav-small .stamped-rewards-cards:before {
+    margin-top: -30px;
+}
+.stamped-rewards-card {
+    padding: 20px 24px 20px;
+    line-height: 1.6;
+    margin-bottom: 17px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #000;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.1), inset 0 2px 0 0 #ffb100;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.1), inset 0 2px 0 0 #ffb100;
+    background: #fff;
+}
+#stamped-rewards-cards > div {
+    background-color: #fff;
+}
+div#stamped-rewards-cards[data-target="reviews"]:before {
+    content: "Your Reviews";
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    height: 35px;
+    margin-top: -2px;
+    display: none !important;
+}
+#stamped-rewards-views {
+    margin-top: 15px;
+}
+#stamped-rewards-views.loading .stamped-view-loader,
+#stamped-rewards-views.loading .stamped-view-loader :after {
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+}
+#stamped-rewards-views.loading .stamped-view-loader {
+    margin: auto;
+    font-size: 9px;
+    text-indent: -9999em;
+    border: 0.5em solid rgba(0, 0, 0, 0.1);
+    border-left: 0.5em solid #737373;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: stamped-view-loader 1.1s infinite linear;
+    animation: stamped-view-loader 1.1s infinite linear;
+    align-items: center;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 40px);
+}
+@-webkit-keyframes stamped-view-loader {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes stamped-view-loader {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.stamped-rewards-card.stamped-rewards-card-earn,
+.stamped-rewards-card.stamped-rewards-card-spend {
+    padding: 15px 10px 20px;
+    margin-bottom: 5px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #eee;
+}
+.stamped-rewards-card.stamped-rewards-card-vip-tier {
+    padding: 10px 0;
+    margin-bottom: 5px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #eee;
+}
+.stamped-reward-card-title {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.stamped-rewards-card-main .stamped-reward-card-title {
+    margin-bottom: 10px;
+}
+.stamped-rewards-content-button {
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    padding: 10px 15px 10px;
+    margin: 15px 0 10px 0;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #c7cdd1;
+    box-shadow: 0 1px 2px #dde1e3;
+}
+.stamped-rewards-content-button:hover {
+    border-color: #999;
+}
+.stamped-rewards-card-main .stamped-rewards-content-button {
+    min-width: 100%;
+}
+.stamped-rewards-content-button-large {
+    font-size: 15px;
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+.stamped-reward-card-subtitle {
+    display: block;
+    margin-top: 5px;
+    color: #555;
+}
+.stamped-reward-card-button-wrapper {
+    text-align: center;
+    margin-top: 15px;
+}
+[data-logged-in="false"] .stamped-reward-card-button-earn {
+    display: none !important;
+}
+[data-logged-in="false"] .stamped-rewards-header-main-points,
+[data-logged-in="false"] .stamped-rewards-header-small-points {
+    display: none;
+}
+[data-logged-in="false"] .stamped-rewards-header-menu {
+    display: none !important;
+}
+[data-branding="true"] .stamped-rewards-footer:before {
+    content: "\01F381 ";
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: middle;
+}
+[data-branding="true"] .stamped-rewards-footer:after {
+    content: "by Stamped.io";
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 11px;
+}
+[data-branding="true"] .stamped-rewards-footer {
+    background: #fff;
+    border-top: 1px solid #ddd;
+}
+.stamped-reward-card-button-earn,
+.stamped-reward-card-button-spend,
+.stamped-rewards-content-action-button,
+.stamped-rewards-window a.stamped-rewards-content-action-button {
+    background: #ffb100;
+    display: inline-block;
+    width: auto;
+    padding: 10px 15px;
+    margin-left: 5px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.stamped-reward-card-button-earn,
+.stamped-reward-card-button-spend {
+    display: none;
+    float: right;
+}
+.stamped-rewards-earnings .stamped-reward-card-icon,
+.stamped-rewards-spendings .stamped-reward-card-icon,
+.stamped-rewards-vip-tiers .stamped-reward-card-icon {
+    margin-right: 10px;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 28px;
+    min-width: auto;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    float: left;
+    opacity: 0.7;
+}
+.stamped-rewards-earnings .stamped-reward-card-icon,
+.stamped-rewards-spendings .stamped-reward-card-icon {
+    margin-bottom: 10px;
+}
+.stamped-rewards-spendings .stamped-reward-card-icon {
+    font-size: 23px;
+    padding-left: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.stamped-rewards-vip-tiers {
+    margin-top: 10px;
+}
+.stamped-rewards-vip-tiers .stamped-reward-card-icon {
+    font-size: 21px !important;
+}
+.stamped-rewards-vip-tiers > .stamped-rewards-card {
+    cursor: pointer;
+    padding: 10px 0 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.stamped-rewards-vip-tiers > .stamped-rewards-card:last-child {
+    border: none !important;
+}
+.stamped-rewards-vip-tiers > .stamped-rewards-card[data-current="true"] .stamped-reward-card-button-earn {
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-right: 7px;
+    display: block;
+}
+.stamped-rewards-vip-tiers > .stamped-rewards-card[data-current="true"] .stamped-reward-card-button-earn:before {
+    content: "Current";
+}
+.stamped-rewards-vip-tiers > .stamped-rewards-card:hover {
+    background: #fafafa;
+}
+.stamped-rewards-earnings [data-event-type="ReviewPhoto"] .stamped-reward-card-button-earn,
+.stamped-rewards-earnings [data-event-type="ReviewVideo"] .stamped-reward-card-button-earn,
+.stamped-rewards-earnings [data-event-type="Review"] .stamped-reward-card-button-earn,
+.stamped-rewards-earnings [data-event-type="SocialFollowFacebook"] .stamped-reward-card-button-earn,
+.stamped-rewards-earnings [data-event-type="SocialFollowInstagram"] .stamped-reward-card-button-earn,
+.stamped-rewards-earnings [data-event-type="SocialFollowPinterest"] .stamped-reward-card-button-earn,
+.stamped-rewards-earnings [data-event-type="SocialFollowTiktok"] .stamped-reward-card-button-earn,
+.stamped-rewards-earnings [data-event-type="SocialFollowTwitter"] .stamped-reward-card-button-earn,
+.stamped-rewards-earnings [data-event-type="SocialShareFacebook"] .stamped-reward-card-button-earn,
+.stamped-rewards-earnings [data-event-type="SocialShareTwitter"] .stamped-reward-card-button-earn,
+.stamped-rewards-earnings [data-event-type="SocialYouTube"] .stamped-reward-card-button-earn {
+    display: block;
+    text-align: center;
+    min-width: 50px;
+    font-size: 13px;
+}
+.stamped-rewards-earnings [data-event-type="AccountBirthday"][data-birthday="false"] .stamped-reward-card-button-earn:empty:before {
+    content: "Set";
+    text-align: center;
+}
+.stamped-rewards-earnings [data-event-type="AccountBirthday"][data-birthday="false"] .stamped-reward-card-button-earn {
+    display: block;
+    text-align: center;
+}
+.stamped-rewards-earnings [data-event-type="SocialFollowInstagram"] .stamped-reward-card-button-earn:empty:before,
+.stamped-rewards-earnings [data-event-type="SocialFollowPinterest"] .stamped-reward-card-button-earn:empty:before,
+.stamped-rewards-earnings [data-event-type="SocialFollowTiktok"] .stamped-reward-card-button-earn:empty:before,
+.stamped-rewards-earnings [data-event-type="SocialFollowTwitter"] .stamped-reward-card-button-earn:empty:before {
+    content: "Follow";
+    display: block;
+}
+.stamped-rewards-earnings [data-event-type="SocialFollowFacebook"] .stamped-reward-card-button-earn:empty:before {
+    content: "Like";
+    display: block;
+}
+.stamped-rewards-earnings [data-event-type="SocialShareFacebook"] .stamped-reward-card-button-earn:empty:before,
+.stamped-rewards-earnings [data-event-type="SocialShareTwitter"] .stamped-reward-card-button-earn:empty:before {
+    content: "Share";
+    display: block;
+}
+.stamped-rewards-earnings [data-event-type="SocialYouTube"] .stamped-reward-card-button-earn:empty:before {
+    content: "Subscribe";
+    display: block;
+}
+.stamped-rewards-earnings [data-event-type="ReviewPhoto"] .stamped-reward-card-button-earn:before,
+.stamped-rewards-earnings [data-event-type="ReviewVideo"] .stamped-reward-card-button-earn:before,
+.stamped-rewards-earnings [data-event-type="Review"] .stamped-reward-card-button-earn:before {
+    font-family: "Font Awesome 5 Solid";
+    content: "\f040";
+    display: none;
+}
+.stamped-rewards-earnings [data-campaign-completed="true"] .stamped-reward-card-button-earn:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f00c" !important;
+    display: none;
+}
+.stamped-rewards-earnings .stamped-reward-card-button-earn svg {
+    height: 20px;
+}
+.stamped-rewards-earnings .stamped-reward-card-button-earn[data-campaign-completed="true"],
+.stamped-rewards-earnings [data-campaign-completed="true"] .stamped-reward-card-button-earn {
+    display: inline-block;
+    opacity: 0.5;
+    text-align: center;
+    min-width: 50px;
+    font-size: 13px;
+}
+[data-campaign-redeemable="true"] .stamped-reward-card-button-spend {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+}
+[data-campaign-redeemable="true"] .stamped-reward-card-button-spend:not(.stamped-button-disabled):before {
+    content: "Redeem";
+    display: block;
+    text-align: center;
+}
+.stamped-reward-card-button-view {
+    float: right;
+}
+.stamped-reward-card-button-view:before {
+    content: "View";
+    display: block;
+}
+.stamped-button-loading {
+    display: block;
+    margin: auto;
+    font-size: 2px;
+    text-indent: -9999em;
+    border: 1em solid rgba(0, 0, 0, 0.1);
+    border-left: 1em solid #fff;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: stamped-view-loader 1.1s infinite linear;
+    animation: stamped-view-loader 1.1s infinite linear;
+    align-items: center;
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+}
+.stamped-button-loading:after {
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+}
+.stamped-button-completed:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f00c" !important;
+    display: none;
+}
+div.stamped-button-disabled {
+    background-color: #ccc !important;
+    pointer-events: none;
+}
+span.stamped-button-disabled {
+    background-color: #ccc !important;
+    pointer-events: none;
+}
+.stamped-rewards-coupons {
+    margin-top: 10px;
+}
+.stamped-rewards-coupons-view {
+    margin-top: 10px;
+}
+.stamped-rewards-coupons-view .stamped-reward-coupon-code {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.stamped-rewards-coupons-view .stamped-reward-card-subtitle {
+    margin: 15px 0 20px 0;
+}
+.stamped-reward-referral-link {
+    background: #eee;
+    padding: 10px;
+    overflow-x: auto;
+    max-height: 50px;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.stamped-reward-coupon-code {
+    background: #eee;
+}
+.stamped-reward-referral-rewards {
+    margin: 20px 0 10px 0;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 10px 0;
+}
+.stamped-reward-referral-customer {
+    float: left;
+    width: 49%;
+    text-align: center;
+}
+.stamped-reward-referral-friend {
+    float: right;
+    width: 50%;
+    text-align: center;
+    border-left: 1px solid #eee;
+}
+.stamped-reward-referral-reward-title {
+    font-weight: 700;
+    font-size: 12px;
+}
+.stamped-reward-referral-platforms {
+    padding: 10px 0;
+    text-align: center;
+}
+.stamped-reward-referral-platforms > span {
+    display: inline-block;
+    width: 19%;
+    font-size: 12px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+}
+.stamped-reward-referral-platforms > span > button {
+    -webkit-appearance: none;
+    border: none !important;
+    background: 0 0;
+}
+.stamped-reward-referral-platforms i,
+.stamped-reward-referral-platforms svg {
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 7px;
+}
+.stamped-card-section-spending {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+.stamped-card-section-earning a svg,
+.stamped-card-section-spending a svg {
+    margin-right: 5px;
+    margin-left: -15px;
+    font-size: 18px;
+}
+.stamped-card-section-spending a svg {
+    font-size: 20px;
+}
+.stamped-launcher-review-view {
+    font-size: 0.9em;
+}
+.stamped-rewards-birthday-input-holder {
+    position: absolute;
+    z-index: 9;
+    background: #fff;
+    display: inline-block;
+    left: 60px;
+    padding-right: 20px;
+}
+.stamped-rewards-birthday-input-holder input {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 15px;
+}
+[data-logged-in="true"] .stamped-rewards-header-main-subtitle {
+    display: none;
+}
+.opened .stamped-rewards-card,
+.opened .stamped-rewards-header-container {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: testingUp;
+    animation-name: testingUp;
+}
+.opened div#stamped-rewards-cards > div:nth-child(1) {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+.opened div#stamped-rewards-cards > div:nth-child(2) {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+.opened div#stamped-rewards-cards > div:nth-child(3) {
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+.opened div#stamped-rewards-cards > div:nth-child(4) {
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+.opened div#stamped-rewards-cards > div:nth-child(5) {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+.opened div#stamped-rewards-cards > div:nth-child(6) {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.opened div#stamped-rewards-cards > div:nth-child(7) {
+    -webkit-animation-delay: 1.1s;
+    animation-delay: 1.1s;
+}
+.opened div#stamped-rewards-cards > div:nth-child(8) {
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+.opened div#stamped-rewards-cards > div:nth-child(9) {
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+}
+.opened div#stamped-rewards-cards > div:nth-child(10) {
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+.opened .stamped-rewards-footer {
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: testingUp;
+    animation-name: testingUp;
+}
+@-webkit-keyframes testingUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.stamped-launcher-list-item {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.stamped-launcher-list-item.stamped-launcher-list-with-button .stamped-launcher-list-item-title {
+    max-width: 140px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 16px;
+    margin-top: 3px;
+}
+.stamped-launcher-thumbnail-wrapper {
+    display: inline-block;
+    max-width: 35px;
+    max-height: 35px;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .stamped-rewards-base {
+        top: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        width: 100%;
+        max-height: 100%;
+        height: calc(100%);
+        background: #00000026;
+        border-radius: 0;
+    }
+    .stamped-rewards-launcher.opened {
+        display: none !important;
+    }
+    button.stamped-launcher-button {
+        width: 60px !important;
+        overflow: hidden;
+        box-shadow: none !important;
+    }
+    .stamped-rewards-position-left button.stamped-launcher-button {
+        left: 20px !important;
+        bottom: 20px !important;
+    }
+    .stamped-rewards-position-right button.stamped-launcher-button {
+        right: 20px !important;
+        bottom: 20px !important;
+    }
+}
+body[data-mobile="true"] .stamped-rewards-header-close {
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+}
+body[data-mobile="true"] .stamped-launcher-icon-opened i,
+body[data-mobile="true"] .stamped-launcher-icon-opened svg {
+    margin-right: 0 !important;
+}
+body[data-mobile="true"] .stamped-launcher-icon-opened span {
+    display: none;
+}
