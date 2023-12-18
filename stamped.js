@@ -396,7 +396,7 @@ var StampedFn =
                 u = r("head", wt);
                 t.html(n);
                 t.append(r("#stamped-rewards-main-css", g).clone());
-                u.append(r("<link/>", { rel: "stylesheet", href: "//cdn1.stamped.io/files/rewards-launcher.min.css", type: "text/css" }));
+                u.append(r("<link/>", { rel: "stylesheet", href: "//cdn.jsdelivr.net/gh/niezle-ziolko/niezle-ziolko-cdnjs@latest/stamped-rewards-launcher.min.css", type: "text/css" }));
                 o.includes_options.rewards_button_js != !1 &&
                     ((i = wt.createElement("script")), (i.type = "text/javascript"), (i.src = "https://kit.fontawesome.com/c66d4e7704.js"), i.setAttribute("data-observe-mutations", "true"), wt.body.appendChild(i));
                 u.append(
@@ -425,7 +425,7 @@ var StampedFn =
                 u = r("head", f);
                 t.html(n);
                 t.append(r("#stamped-rewards-main-css", g).clone());
-                u.append(r("<link/>", { rel: "stylesheet", href: "//cdn1.stamped.io/files/rewards-main.min.css", type: "text/css" }));
+                u.append(r("<link/>", { rel: "stylesheet", href: "//cdn.jsdelivr.net/gh/niezle-ziolko/niezle-ziolko-cdnjs@latest/stamped-rewards-main.min.css", type: "text/css" }));
                 o.exclude_font != !0 && u.append(r("<link/>", { rel: "stylesheet", href: "//fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap", type: "text/css" }));
                 l
                     ? (console.log("Loading new FA css..."),
